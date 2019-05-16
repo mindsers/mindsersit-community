@@ -1,7 +1,7 @@
 {
   "name": "@mindsersit/community",
-  "about_url": "https://github.com/mindsers/mindsersit-community/",
-  "license_url": "https://github.com/mindsers/mindsersit-community/",
+  "about_url": "https://github.com/mindsers/mindsersit-community",
+  "license_url": "https://github.com/mindsers/mindsersit-community/blob/master/LICENSE",
    "assets": {},
    "color_schemes": {
        "mindsersit": {
