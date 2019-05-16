@@ -1,6 +1,33 @@
 @import "common/foundation/variables";
 
-section.header {
-  background: linear-gradient(70deg,#1b9cfc,#25ccf7);
-  padding: 150px 50px;
+header {
+  border-bottom: 1px solid #d3d3d3;
+  color: #34495e;
+  padding: 20px;
+  margin: 0;
+  
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  .title {
+    margin-right: auto;
+    cursor: pointer;
+    outline: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin: 0 15px;
+    font-weight: lighter;
+    font-size: .95em;
+    cursor: pointer;
+    
+    a {
+      text-decoration: none;
+      color: #34495e;
+    }
+  }
 }
