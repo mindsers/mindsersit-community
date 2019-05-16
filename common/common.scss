@@ -19,6 +19,14 @@ header.brand-header {
     margin-right: auto;
     cursor: pointer;
     outline: 0;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: Inconsolata, monospace;
+    
+    a {
+      text-decoration: none;
+      color: #34495e;
+    }
   }
   
   nav li {
