@@ -3,7 +3,7 @@
   "about_url": "https://github.com/mindsers/mindsersit-community",
   "license_url": "https://github.com/mindsers/mindsersit-community/blob/master/LICENSE",
   "assets": {
-    "asset-variable": "assets/img/logo.svg"
+    "logo": "assets/img/logo.svg"
   },
   "color_schemes": {
     "mindsersit": {
