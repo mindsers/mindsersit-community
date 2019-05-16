@@ -1,0 +1,20 @@
+{
+  "name": "@mindsersit/community",
+  "about_url": "https://github.com/mindsers/mindsersit-community/",
+  "license_url": "https://github.com/mindsers/mindsersit-community/",
+   "assets": {},
+   "color_schemes": {
+       "mindsersit": {
+          "primary": "34495e",
+          "secondary": "ffffff",
+          "tertiary": "0076df",
+          "quaternary": "34495e",
+          "header_background": "ffffff",
+          "header_primary": "34495e",
+          "highlight": "66b8ff",
+          "danger": "ff7675",
+          "success": "00b894",
+          "love": "d63031"
+        }
+    }
+}
