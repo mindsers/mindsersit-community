@@ -65,3 +65,78 @@ header.brand-header {
     font-weight: bolder;
   }
 }
+
+footer.site-footer {
+  background-color: var(--secondaryColor);
+  font-family: var(--primaryFont);
+  padding: 50px;
+  
+  .site-footer-content {
+    max-width: 1024px;
+    margin: 0 auto;
+    
+    nav.items {
+      display: flex;
+      justify-content: space-between;
+      
+      h2 {
+        font-weight: 300;
+        margin: 20px 0;
+        font-size: 1em;
+        text-transform: uppercase;
+      }
+      
+      .item {
+        color: white;
+        font-weight: 300;
+      }
+      
+      ul {
+        padding-left: 0;
+      }
+      
+      li {
+        list-style: none;
+        margin: 10px;
+        font-size: 0.85em;
+        
+        .coin-address {
+          color: #1B9CFC;;
+        }
+      }
+    }
+    
+    a {
+      color: white;
+      text-decoration: none;
+    }
+  
+    .copyright {
+      text-align: center;
+      color: white;
+      font-size: 0.8em;
+      font-weight: lighter;
+      margin: 30px;
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+    footer.site-footer .site-footer-content nav.items {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    footer.site-footer .site-footer-content nav.items {
+      flex-direction: column-reverse;
+      
+      .item {
+        text-align: center;
+        
+        .coin-address {
+          display: block;
+        }
+      }
+    }
+}
