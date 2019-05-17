@@ -15,9 +15,21 @@ footer {
   font-family: 'Inconsolata', monospace;
   
   a.button {
-    border-raduis: 3px;
-    border: 1px solid $tertiary;
     background-color: white;
+    transition: background-color .4s,border .4s,color .4s;
+    border: 1px solid $tertiary;
+    border-radius: 3px;
+    margin: 15px;
+    padding: 8px 15px;
     color: $tertiary;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    
+    &:hover {
+      background: $tertiary;
+      color: #fff;
+      border-color: transparent;
+    }
   }
 }
