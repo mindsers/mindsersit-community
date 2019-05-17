@@ -9,6 +9,10 @@ header.discourse {
 article {
   border-bottom: 1px solid #eee;
   font-family: 'Inconsolata', monospace;
+  
+  .username .staff {
+    background-color: $highlight;
+  }
 }
 
 footer {
