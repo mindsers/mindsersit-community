@@ -1,5 +1,9 @@
 @import "common/foundation/variables";
 
+* {
+  font-family: Inconsolata, monospace;
+}
+
 .d-header .title {
   display: none;
 }
@@ -25,7 +29,6 @@ header.brand-header {
     outline: 0;
     display: inline-block;
     vertical-align: middle;
-    font-family: Inconsolata, monospace;
     font-size: 24px;
 
     img {
@@ -44,7 +47,6 @@ header.brand-header {
     font-weight: lighter;
     font-size: 1em;
     cursor: pointer;
-    font-family: Inconsolata, monospace;
     
     a {
       text-decoration: none;
