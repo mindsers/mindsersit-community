@@ -58,6 +58,20 @@ header.brand-header {
   }
 }
 
+@media screen and (max-width: 500px) {
+  header.brand-header div.content {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  header.brand-header {
+    .title, .menu {
+      margin: 20px 0;
+    }
+  }
+}
+
 .main-outlet {
   .fancy-title {
     font-family: 'Source Code Pro', monospace;
