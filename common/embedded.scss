@@ -10,8 +10,12 @@ article.post {
   border-bottom: 1px solid #eee;
   font-family: 'Inconsolata', monospace;
   
-  .username .staff {
-    background-color: rgba($tertiary, 0.2);
+  .username {
+    font-family: 'Source Code Pro', monospace; */
+    
+    .staff {
+      background-color: rgba($tertiary, 0.2);
+    }
   }
 }
 
