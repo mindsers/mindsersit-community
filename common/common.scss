@@ -1,5 +1,9 @@
 @import "common/foundation/variables";
 
+.d-header .title {
+  display: none;
+}
+
 header.brand-header {
   /*border-bottom: 1px solid #d3d3d3;*/
   color: #34495e;
