@@ -67,8 +67,7 @@ header.brand-header {
 }
 
 footer.site-footer {
-  background-color: var(--secondaryColor);
-  font-family: var(--primaryFont);
+  background-color: $quaternary;
   padding: 50px;
   
   .site-footer-content {
