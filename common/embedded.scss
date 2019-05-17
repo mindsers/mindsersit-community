@@ -1,3 +1,5 @@
+@import "common/foundation/variables";
+
 header.discourse {
   border-bottom: 1px solid #eee;
   font-family: 'Inconsolata', monospace;
@@ -12,7 +14,9 @@ article {
 footer {
   font-family: 'Inconsolata', monospace;
   
-  .button {
+  a.button {
     border-raduis: 3px;
+    border: 1px solid $tertiary;
+    background-color: white;
   }
 }
