@@ -127,7 +127,10 @@ footer.site-footer {
 }
 
 @media screen and (max-width: 450px) {
-    footer.site-footer .site-footer-content nav.items {
+  footer.site-footer {
+    padding: 0;
+    
+    .site-footer-content nav.items {
       flex-direction: column-reverse;
       
       .item {
@@ -138,4 +141,5 @@ footer.site-footer {
         }
       }
     }
+  }
 }
