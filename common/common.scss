@@ -83,6 +83,11 @@ footer.site-footer {
   background-color: $quaternary;
   padding: 50px;
   
+  & * {
+    padding: 0;
+    marging: 0;
+  }
+  
   .site-footer-content {
     max-width: 1024px;
     margin: 0 auto;
