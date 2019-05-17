@@ -14,7 +14,7 @@
 
 header.brand-header {
   color: #34495e;
-  padding: 20px;
+  padding: 20px 0;
   margin: 0;
   box-sizing: border-box;
   
@@ -112,7 +112,8 @@ footer.site-footer {
       
       li {
         list-style: none;
-        margin: 10px;
+        margin: 10px 0;
+        padding: 0 10px;
         font-size: 0.85em;
         box-sizing: border-box;
         
