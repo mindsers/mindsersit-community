@@ -16,7 +16,6 @@ header.brand-header {
   color: #34495e;
   padding: 20px 0;
   margin: 0;
-  box-sizing: border-box;
   
   .content {
     display: flex;
@@ -45,29 +44,36 @@ header.brand-header {
     }
   }
   
-  nav li {
-    display: inline-block;
-    margin: 0 15px;
-    font-weight: lighter;
-    font-size: 1em;
-    cursor: pointer;
-    box-sizing: border-box;
+  nav ul {
+    margin: 0;
     
-    a {
-      text-decoration: none;
-      color: #34495e;
+    li {
+      display: inline-block;
+      margin: 0 15px;
+      font-weight: lighter;
+      font-size: 1em;
+      cursor: pointer;
+    
+      a {
+        text-decoration: none;
+        color: #34495e;
+      }
     }
   }
 }
 
 @media screen and (max-width: 500px) {
-  header.brand-header div.content {
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-  }
-
   header.brand-header {
+    nav ul li {
+      margin: 5px 10px;
+    }
+    
+    div.content {
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+    }
+    
     .title, .menu {
       margin: 20px 0;
     }
