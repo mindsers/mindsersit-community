@@ -2,10 +2,16 @@
 
 # @mindsersit/community
 
-*"MindsersIT Community Forum"* is a community forum for [nathanaelcherrier.com](https://nathanaelcherrier.com). 
+*"MindsersIT Community Forum"* is a community forum for [nathanaelcherrier.com](https://nathanaelcherrier.com).
 This part of the site is based on [Discourse](https://discourse.com).
 
 This repo host the discourse theme that powers [community.nathanaelcherrier.com](https://community.nathanaelcherrier.com).
+
+All the repositories part of the MindsersIT project:
+
+- [@mindsersit/website](https://github.com/mindsers/mindsersit-website)
+- [@mindsersit/blog](https://github.com/mindsers/mindsersit-blog)
+- [@mindsersit/community](https://github.com/mindsers/mindsersit-community)
 
 ## License
 
