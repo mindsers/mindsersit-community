@@ -5,7 +5,7 @@
 *"MindsersIT Community Forum"* is a community forum for [nathanaelcherrier.com](https://nathanaelcherrier.com).
 This part of the site is based on [Discourse](https://discourse.com).
 
-This repo host the discourse theme that powers [community.nathanaelcherrier.com](https://community.nathanaelcherrier.com).
+This repo host the discourse theme that powered community.nathanaelcherrier.com. **It is now archived, the discourse server isn't available anymore.**
 
 All the repositories part of the MindsersIT project:
 
